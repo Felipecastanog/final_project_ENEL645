@@ -5,10 +5,10 @@ This study evaluated threshold-based classification and XGBoost for privacy-pres
 
 ## Repository Structure
 
-### **data**
+### **Data**
 Contains synthetic datasets used in this study for PPRL experiments.
 
-### **codes**
+### **Codes**
 Contains codes used for:
 - `PrivacyPreserving_and_Threshold.ipynb`: Preprocessing data, applying Bloom filters, and implementing a threshold-based method for 500 subjects.
 - `3000threshold.py`: Same pipeline as the code above, but implemented for 3,000 subjects (the maximum allowed by the computational resources available in TALC).
